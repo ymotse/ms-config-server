@@ -1,0 +1,13 @@
+server:
+  port: 5004
+  application:
+    name: greeting-service
+greeting-service:
+  greeting: "Hello"
+  default-value: "World - Dev"
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - '*'

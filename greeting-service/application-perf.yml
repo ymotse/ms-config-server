@@ -1,0 +1,13 @@
+server:
+  port: 5004
+  application:
+    name: greeting-service
+greeting-service:
+  greeting: "Hola"
+  default-value: "Mundo - Perf"
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - '*'
