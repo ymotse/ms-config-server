@@ -4,7 +4,7 @@ server:
     name: greeting-service
 greeting-service:
   greeting: "Hello"
-  default-value: "World - Dev"
+  default-value: "World - Desenv"
 management:
   endpoints:
     web:
